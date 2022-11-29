@@ -1,12 +1,5 @@
 ```
-cat << EOF > pokemon.sh
-#!/bin/sh
- 
-sudo apt update
-sudo apt install openjdk-8-jre-headless -y
-wget https://github.com/ciberado/pokemon/releases/download/stress/pokemon-0.0.4-SNAPSHOT.jar
-java -jar pokemon-0.0.4-SNAPSHOT.jar
-EOF
+wget https://gist.githubusercontent.com/ciberado/3196cbcf568001dd0e8fedc6214a18d0/raw/a7581270061f9a234a339ce00fc8250388aa0dfc/pokemon.sh
 
 # See https://cloud-images.ubuntu.com/locator/
 
