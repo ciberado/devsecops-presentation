@@ -1,0 +1,41 @@
+.fullviewport, .fullviewport body {
+	background-color: white;
+}
+
+.slidedeck.speaker section.active {
+  top: 50%;
+}
+
+.slidedeck.speaker section.active + section {
+  top : 50%;
+  opacity: 0.2;
+}
+
+.slidedeck.speaker section.active div.slide-notes {
+  border-left: 4px dotted silver;
+  top: -100%;
+  left: 120%;
+  width: 80%;
+  overflow: auto;
+  padding: 0 1em;
+}
+
+.slidedeck .coverbg > div.block-image {
+
+  ~ ul, ~ p {
+    position: relative;
+    top: -120%;
+    width: 120%;
+    padding: 0 2em 0 1em;
+    font-size: 66px;
+  }
+}
+
+
+/* -------------------------------------------------------------- */
+
+.slidedeck .title > h1 {
+  position: absolute;
+  width: 55%;
+  top: 4em;
+}
