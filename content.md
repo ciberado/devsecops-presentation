@@ -80,6 +80,36 @@ dynamic connections between any random pair of people.
 
 [](.coverbg)
 
+## Classless inter-domain routing (CIDR)
+
+![A photo of a neighboorhood, by Michael Tuszynski, https://www.pexels.com/photo/top-view-photography-of-city-2157401/](images/pexels-michael-tuszynski-2157401.jpg)
+
+
+::: Notes
+
+Use https://www.ipaddressguide.com/cidr to calculate some ranges.
+
+:::
+
+[](.coverbg)
+
+## How applications ring each other
+
+![A photo with several phones, by Alex Andrews, https://www.pexels.com/photo/three-black-handset-toys-821754/](images/pexels-alex-andrews-821754.jpg)
+
+::: Notes
+
+* Applications connected to the network
+* IP addresses, as the telephone number of a device
+* Ports, as a way to address a particular application
+
+![A diagram of two machines communicating trough IP](images/ip-connectivity-diagram.jpg)
+
+:::
+
+
+[](.coverbg)
+
 ## Compute virtualization
 
 ![A set of boxes in a bigger box](images/boxes-in-boxes.jpg)
@@ -99,21 +129,6 @@ Introduce the concept of HTTPs server, including:
 
 ![A diagram of a classic OS, a host OS with a guest one, and several VMs](images/virtual-machine-diagram.jpg)
 
-:::
-
-[](.coverbg)
-
-## How applications ring each other
-
-![A photo with several phones, by Alex Andrews, https://www.pexels.com/photo/three-black-handset-toys-821754/](images/pexels-alex-andrews-821754.jpg)
-
-::: Notes
-
-* Applications connected to the network
-* IP addresses, as the telephone number of a device
-* Ports, as a way to address a particular application
-
-![A diagram of two machines communicating trough IP](images/ip-connectivity-diagram.jpg)
 
 :::
 
