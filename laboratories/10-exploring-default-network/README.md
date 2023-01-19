@@ -1,4 +1,6 @@
 ```
+export AWS_DEFAULT_REGION=eu-west-1
+
 aws ec2 describe-security-groups | jq
 
 aws ec2 describe-security-groups | jq -C | less -R
@@ -11,8 +13,6 @@ aws ec2 describe-security-groups \
     --filters Name=ip-permission.from-port,Values=22 Name=ip-permission.to-port,Values=22 Name=ip-permission.cidr,Values='0.0.0.0/0' \
     --query "SecurityGroups[*].[GroupName]" \
     --output text
-    
-export AWS_DEFAULT_REGION=eu-west-1
 
 aws ec2 describe-vpcs
 
